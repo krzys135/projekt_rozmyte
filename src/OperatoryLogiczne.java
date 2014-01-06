@@ -6,6 +6,7 @@ public class OperatoryLogiczne {
 	public double koniunkcja(double x, double y){
 		switch(sposob){
 		case 1: return Math.max(0d, x + y - 1d); //t - norma
+		case 2: return x+y-x*y; // product 
 		default: return Math.min(x, y); //minimum
 		}
 	}
@@ -13,6 +14,7 @@ public class OperatoryLogiczne {
 	public double alternatywa(double x, double y){
 		switch(sposob){
 		case 1: return Math.min(1d, x + y); // t - konorma
+		case 2: return x*y; //probalistic sum
 		default: return Math.max(x, y); // maksimum
 		}
 	}

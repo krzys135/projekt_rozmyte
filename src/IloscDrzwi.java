@@ -1,7 +1,7 @@
 
 public class IloscDrzwi extends Cecha{
 	
-	private static int max = 10;
+	private static int max = 5;
 	public static int bd = 5;
 	public static int d = 4;
 	public static int m = 3;
